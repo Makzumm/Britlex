@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Britlex</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container container--header">
+        <div class="container-header-wrapper">
+          <a class="container-header-wrapper__logo" href="./index.html"
+            >Brit<span class="container-header-wrapper__highlighted"
+              >lex</span
+            ></a
+          >
+          <button
+            data-burg-open
+            class="container-header-wrapper__menu-brg-btn"
+            type="button"
+            aria-expanded="false"
+          >
+            <svg
+              class="container-header-wrapper_menu-brg-icon"
+              width="33"
+              height="19"
+            >
+              <use href="./img/sprite.svg#icon-menu-burg"></use>
+            </svg>
+          </button>
+        </div>
+        <div data-burg-menu class="menu-burg-cont is-hidden">
+          <button data-burg-close class="menu-burg-cont__btn" type="button">
+            X
+          </button>
+          <nav class="menu-burg-nav">
+            <ul class="menu-burg-list">
+              <li class="menu-burg-list__item">
+                <a class="menu-burg-list__link" href="./index.html">Home</a>
+              </li>
+              <li class="menu-burg-list__item">
+                <a class="menu-burg-list__link" href="#">Skills</a>
+              </li>
+              <li class="menu-burg-list__item">
+                <a class="menu-burg-list__link" href="#">About Us</a>
+              </li>
+              <li class="menu-burg-list__item">
+                <a class="menu-burg-list__link" href="#">Pricing</a>
+              </li>
+              <li class="menu-burg-list__item">
+                <a class="menu-burg-list__link" href="#">Contacts</a>
+              </li>
+              <li class="menu-burg-list__item">
+                <button class="menu-burg-list__button" type="button">
+                  Let's talk
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- HERO -->
+      <section class="hero-section">
+        <div class="container container--hero">
+          <div class="hero-wrapper">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/hero-mob@1x.png 1x,
+                  ./img/hero/hero-mob@2x.png 2x
+                "
+                type="image/png"
+                media="(min-width: 320px)"
+              />
+
+              <img
+                src="./img/hero/hero-mob@1x.png"
+                alt="Girl learning languages"
+              />
+            </picture>
+            <h1 class="hero-wrapper__title">Learn Any<br />Foreign Language</h1>
+            <p class="hero-wrapper__txt">
+              With our teachers who write a program for each student, you will
+              be able to make your first sketch after the first lesson.
+            </p>
+            <button class="hero-wrapper__btn" type="button">Get started</button>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS -->
+      <section class="skills-section">
+        <div class="container">
+          <div class="skills-wrapper">
+            <h1 class="skills-wrapper__title">Skills</h1>
+            <ul class="skills-list">
+              <li class="skills-list__item skills-list__item--designed">
+                <div class="thumb-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/skills/goals-mob@1x.png 1x,
+                        ./img/skills/goals-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="thumb-wrapper__img"
+                      src="./img/skills/goals-mob@1x.png"
+                      alt="Goals sharing"
+                    />
+                  </picture>
+                </div>
+                <div class="description-wrapper">
+                  <h2 class="description-wrapper__title">Speaking</h2>
+                  <p
+                    class="description-wrapper__txt description-wrapper__txt--first"
+                  >
+                    Improve your English skills and confidence. Live classes and
+                    interactive lessons online. 20% extra free for <br />
+                    a limited time only
+                  </p>
+                  <p
+                    class="description-wrapper__txt description-wrapper__txt--second"
+                  >
+                    Learn English online and improve your <br />
+                    skills through our high-quality courses<br />and resources –
+                    all designed for adult language learners.
+                  </p>
+                  <button class="description-wrapper__btn" type="button">
+                    Learn More
+                  </button>
+                </div>
+              </li>
+              <li class="skills-list__item skills-list__item--designed">
+                <div class="thumb-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/skills/typewriter-mob@1x.png 1x,
+                        ./img/skills/typewriter-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="thumb-wrapper__img"
+                      src="./img/skills/typewriter-mob@1x.png"
+                      alt="Goals sharing"
+                    />
+                  </picture>
+                  <div class="description-wrapper">
+                    <h2 class="description-wrapper__title">Speaking</h2>
+                    <p class="description-wrapper__txt">
+                      One of the most important and extensive areas of natural
+                      science, the science that studies substances, also their
+                      composition
+                    </p>
+                    <button class="description-wrapper__btn" type="button">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="skills-list__item skills-list__item--designed">
+                <div class="thumb-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/skills/bookshelves-mob@1x.png 1x,
+                        ./img/skills/bookshelves-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="thumb-wrapper__img"
+                      src="./img/skills/bookshelves-mob@1x.png"
+                      alt="Goals sharing"
+                    />
+                  </picture>
+                  <div class="description-wrapper">
+                    <h2 class="description-wrapper__title">Reading</h2>
+                    <p class="description-wrapper__txt">
+                      perception and response actions<br />
+                      of the user resulting from the use and<br />
+                      or up coming use of the product, system or service
+                    </p>
+                    <button class="description-wrapper__btn" type="button">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="skills-list__item skills-list__item--designed">
+                <div class="thumb-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/skills/podcast-mob@1x.png 1x,
+                        ./img/skills/podcast-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="thumb-wrapper__img"
+                      src="./img/skills/podcast-mob@1x.png"
+                      alt="Goals sharing"
+                    />
+                  </picture>
+                  <div class="description-wrapper">
+                    <h2 class="description-wrapper__title">Listening</h2>
+                    <p class="description-wrapper__txt">
+                      Here you can find activities to practise your listening
+                      skills. Listening will help you to improve your
+                      understanding
+                    </p>
+                    <button class="description-wrapper__btn" type="button">
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT US -->
+      <section class="about-us-section">
+        <div class="container">
+          <div class="about-us-wrapper">
+            <h2 class="about-us-wrapper__title">About us</h2>
+            <div class="about-us-thumb-wrapper">
+              <picture>
+                <source
+                  srcset="
+                    ./img/about-us/about-us-mob@1x.png 1x,
+                    ./img/about-us/about-us-mob@2x.png 2x
+                  "
+                  type="image/png"
+                  media="(min-width: 320px)"
+                />
+
+                <img
+                  class="about-us-thumb-wrapper__img"
+                  src="./img/about-us/about-us-mob@1x.png"
+                  alt="About us picture"
+                />
+              </picture>
+            </div>
+            <p class="about-us-wrapper__txt">
+              The model offers a framework for discussing problems related to
+              the user's experience, as well as possible ways and means of
+              solving them. Application development begins at the top level
+              (strategy), where the future software product is described quite
+              abstractly from the point of view of the expectations of both
+              users and the customer.
+            </p>
+            <ul class="about-us-list">
+              <li class="about-us-list__item">
+                <h3 class="about-us-list__num">800</h3>
+                <span class="about-us-list__txt">Pupils</span>
+              </li>
+              <li class="about-us-list__item">
+                <h3 class="about-us-list__num">18</h3>
+                <span class="about-us-list__txt">Teachers</span>
+              </li>
+              <li class="about-us-list__item">
+                <h3 class="about-us-list__num">6</h3>
+                <span class="about-us-list__txt">Foreign languages</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- PRICING -->
+      <section class="pricing-section">
+        <div class="container">
+          <div class="pricing-wrapper">
+            <h2 class="pricing-wrapper__title">Pricing</h2>
+            <ul class="pricing-wrapper-list">
+              <li class="pricing-wrapper-list__item">
+                <div class="pricing-wrapper-list-thumb">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/pricing/pricing1-mob@1x.png 1x,
+                        ./img/pricing/pricing1-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="pricing-wrapper-list-thumb__img"
+                      src="./img/pricing/pricing1-mob@1x.png"
+                      alt="About us picture"
+                    />
+                  </picture>
+                </div>
+                <div class="pricing-wrapper-list-description">
+                  <h3 class="pricing-wrapper-list-description__title">
+                    Self-study online course
+                  </h3>
+                  <p class="pricing-wrapper-list-description__txt">
+                    Start learning English online in live classes with qualified
+                    EC teachers and students from all over the world.
+                  </p>
+                  <p class="pricing-wrapper-list-description__price">
+                    &#163;5.99
+                    <span class="pricing-wrapper-list-description__highlighted"
+                      >per month</span
+                    >
+                  </p>
+                </div>
+              </li>
+              <li class="pricing-wrapper-list__item">
+                <div class="pricing-wrapper-list-thumb">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/pricing/pricing2-mob@1x.png 1x,
+                        ./img/pricing/pricing2-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="pricing-wrapper-list-thumb__img"
+                      src="./img/pricing/pricing2-mob@1x.png"
+                      alt="About us picture"
+                    />
+                  </picture>
+                </div>
+                <div class="pricing-wrapper-list-description">
+                  <h3 class="pricing-wrapper-list-description__title">
+                    Live online classes
+                  </h3>
+                  <p class="pricing-wrapper-list-description__txt">
+                    Interactive group classes with expert teachers. Free 7-day
+                    trial
+                  </p>
+                  <p class="pricing-wrapper-list-description__price">
+                    &#163;12.99
+                    <span class="pricing-wrapper-list-description__highlighted"
+                      >per month</span
+                    >
+                  </p>
+                </div>
+              </li>
+              <li class="pricing-wrapper-list__item">
+                <div class="pricing-wrapper-list-thumb">
+                  <picture>
+                    <source
+                      srcset="
+                        ./img/pricing/pricing3-mob@1x.png 1x,
+                        ./img/pricing/pricing3-mob@2x.png 2x
+                      "
+                      type="image/png"
+                      media="(min-width: 320px)"
+                    />
+
+                    <img
+                      class="pricing-wrapper-list-thumb__img"
+                      src="./img/pricing/pricing3-mob@1x.png"
+                      alt="About us picture"
+                    />
+                  </picture>
+                </div>
+                <div class="pricing-wrapper-list-description">
+                  <h3 class="pricing-wrapper-list-description__title">
+                    Personal Tuition
+                  </h3>
+                  <p class="pricing-wrapper-list-description__txt">
+                    Online one-to-one English tutoring – enjoy our first session
+                    for only $1
+                  </p>
+                  <p class="pricing-wrapper-list-description__price">
+                    &#163;20.99
+                    <span class="pricing-wrapper-list-description__highlighted"
+                      >per month</span
+                    >
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT-US -->
+      <section class="contact-us-section">
+        <div class="container">
+          <div class="contact-us-wrapper">
+            <h2 class="contact-us-wrapper__title">Contact Us</h2>
+            <picture>
+              <source
+                srcset="
+                  ./img/contact-us/contact-us-mob@1x.png 1x,
+                  ./img/contact-us/contact-us-mob@2x.png 2x
+                "
+                type="image/png"
+                media="(min-width: 320px)"
+              />
+
+              <img
+                class="contact-us-wrapper-thumb__img"
+                src="./img/contact-us/contact-us-mob@1x.png"
+                alt="About us picture"
+              />
+            </picture>
+            <form class="contact-us-form" name="newsletter-form">
+              <label class="contact-us-form__label" for="news-input"
+                >Discover your current English level by taking our free online
+                English test. Sign up to our newsletter for learning tips and
+                free resource</label
+              >
+              <input
+                class="contact-us-form__input"
+                name="newsletter-input"
+                id="news-input"
+                placeholder="Enter Your E-mail"
+              />
+              <button class="contact-us-form__btn" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <a class="footer-wrapper__logo" href="./index.html"
+            >Brit<span class="footer-wrapper__highlighted">lex</span>
+          </a>
+          <ul class="footer-list">
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#"
+                >Terms and Conditions &#183;&nbsp;
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#"
+                >Privacy Policy &#183;&nbsp;</a
+              >
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Cookie Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/menu-burg.js"></script>
+  </body>
+</html>

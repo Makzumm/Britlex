@@ -1,0 +1,48 @@
+.about-us-section{
+    margin-bottom: 84px;
+}
+
+.about-us-wrapper__title{
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.about-us-wrapper__txt{
+    margin-top: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8F95A5;
+}
+
+.about-us-list{
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-us-list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-list__num{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2A3246;
+}
+
+.about-us-list__txt{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #8F95A5;
+}

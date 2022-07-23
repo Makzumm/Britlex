@@ -1,0 +1,29 @@
+.container--header{
+    padding: 35px 15px 30px 15px;
+}
+
+.container-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header-wrapper__logo{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.container-header-wrapper__highlighted{
+    color: #939393;
+}
+
+.container-header-wrapper__menu-brg-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+

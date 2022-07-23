@@ -1,0 +1,67 @@
+.menu-burg-is-open{
+    overflow: hidden;
+}
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu-burg-cont{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow-y: scroll;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-burg-cont__btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.menu-burg-nav{
+    padding: 35px 20px 20px 20px;
+}
+
+.menu-burg-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+// .menu-burg-list__item{
+
+// }
+
+.menu-burg-list__link{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+
+.menu-burg-list__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 36px 4px 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #000000;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    background-color: #fff;
+}
